@@ -22,12 +22,21 @@ main{
 
 .paper_box{
     position: absolute;
-    top: 44%;
-    left: 13.5%;
+    top: 38%;
+    left: -10.5%;
 }
 
 .woman_pic{
     position: absolute;
-    top: 25%;
-    left: 15%;    
+    top: 12%;
+    left: -10%;   
+}
+
+.bloc_images{
+    width: 50%;
+    height: 100%;
+    background-image: url("images/bg-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: 107% 69%;
+    overflow: hidden;
 }
