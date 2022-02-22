@@ -18,12 +18,13 @@ main{
     transform: translate(-50%, -50%);
     border-radius: 20px;
     box-shadow: 0 40px 20px -20px hsla(240, 73%, 60%, 0.884);
+    overflow: hidden;
 }
 
 .paper_box{
     position: absolute;
-    top: 38%;
-    left: -10.5%;
+    top: 42%;
+    left: 13.5%;
 }
 
 .woman_pic{
@@ -38,5 +39,4 @@ main{
     background-image: url("images/bg-pattern-desktop.svg");
     background-repeat: no-repeat;
     background-position: 107% 69%;
-    overflow: hidden;
 }
