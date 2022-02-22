@@ -1,0 +1,33 @@
+body{
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    height: 100vh;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 70%;
+    width: 60%;
+    background: white;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 0 40px 20px -20px hsla(240, 73%, 60%, 0.884);
+}
+
+.paper_box{
+    position: absolute;
+    top: 44%;
+    left: 13.5%;
+}
+
+.woman_pic{
+    position: absolute;
+    top: 25%;
+    left: 15%;    
+}
