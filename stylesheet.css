@@ -19,6 +19,7 @@ main{
     border-radius: 20px;
     box-shadow: 0 40px 20px -20px hsla(240, 73%, 60%, 0.884);
     overflow: hidden;
+    display: flex;
 }
 
 .paper_box{
@@ -39,4 +40,9 @@ main{
     background-image: url("images/bg-pattern-desktop.svg");
     background-repeat: no-repeat;
     background-position: 107% 69%;
+}
+
+.bloc_accordion{
+    width: 50%;
+    height: 100%;
 }
