@@ -47,3 +47,7 @@ main{
     height: 100%;
     font-family: 'Kumbh Sans', sans-serif;
 }
+
+.accordion{
+    width: 75%;
+}
