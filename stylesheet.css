@@ -85,3 +85,8 @@ main{
 .accordion_input:checked ~ .accordion_content{
     display: block;
 }
+
+.accordion_input:checked ~ .accordion_label::after{
+    transform: rotate(180deg) translate(-50%);
+    right: 14px;
+}
