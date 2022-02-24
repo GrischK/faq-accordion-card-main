@@ -124,8 +124,8 @@ main{
         height: 70%;
         width: 90%;
         flex-direction: column;
-        overflow: visible;
         top: 60%;
+        overflow: visible;
     }
 
     .bloc_images {
@@ -171,5 +171,9 @@ main{
     .accordion_label::after {
         top: 30%;
         right: -10px;
+    }
+
+    .bloc_accordion{
+        overflow: hidden;
     }
 }
