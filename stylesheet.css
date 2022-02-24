@@ -68,6 +68,7 @@ main{
     top: 50%;
     transform: translateY(-50%);
     right: 10px;
+    transition: transform 0.4s;
 }
 
 .accordion_label:hover{
@@ -87,6 +88,6 @@ main{
 }
 
 .accordion_input:checked ~ .accordion_label::after{
-    transform: rotate(180deg) translate(-50%);
+    transform: rotate(-180deg) translate(-50%);
     right: 14px;
 }
